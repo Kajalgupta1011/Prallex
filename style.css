@@ -1,0 +1,104 @@
+body, html{
+  height:100%;
+  margin:0;
+  font-size:16px;
+  font-family:"Lato", sans-serif;
+  font-weight:400;
+  line-height:1.8em;
+  color:#666;
+}
+
+.pimg1, .pimg2, .pimg3, .pimg4{
+  position:relative;
+  opacity:0.70;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+
+  /*
+    fixed = parallax
+    scroll = normal
+  */
+  background-attachment:fixed;
+}
+
+.pimg1{
+  background-image:url('https://wallpaperaccess.com/full/4507325.jpg');
+  min-height:100%;
+}
+
+.pimg2{
+  background-image:url('https://cdn.wallpapersafari.com/62/24/hIGUgD.jpg');
+  min-height:400px;
+}
+
+.pimg3{
+  background-image:url('https://cloudfront-us-east-2.images.arcpublishing.com/reuters/CYW2BEQN4NO7LFROTWOXZIF5FE.jpg');
+  min-height:400px;
+}
+
+.pimg4{
+  background-image:url('https://i.pinimg.com/736x/79/38/ec/7938ecced23648c545a20ef9c21042a6.jpg');
+  min-height:400px;
+}
+
+.section{
+  text-align:center;
+  padding:50px 80px;
+}
+
+.section-light{
+  background-image: linear-gradient(to right, orange , white, green);
+  background-color:#f4f4f4;
+  color:#666;
+}
+
+.section-dark{
+  background-color:#282e34;
+  color:#ddd;
+}
+.section-dark h2{
+  color: orangered;
+}
+h2.chakra{
+  color: white;
+}
+h2.chakra span{
+
+  color: blue;
+}
+h2.green{
+  color: green;
+}
+h2.do{
+  color: white;
+}
+h2.dont{
+  color: red;
+}
+.ptext{
+  position:absolute;
+  top:50%;
+  width:100%;
+  text-align:center;
+  color:#000;
+  font-size:27px;
+  letter-spacing:8px;
+  text-transform:uppercase;
+}
+
+.ptext .border{
+  background-color:#111;
+  color:#fff;
+  padding:20px;
+}
+
+.ptext .border.trans{
+  background-color:transparent;
+}
+
+@media(max-width:568px){
+  .pimg1, .pimg2, .pimg3{
+    background-attachment:scroll;
+  }
+}
