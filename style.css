@@ -1,6 +1,7 @@
 body, html{
   height:100%;
   margin:0;
+  /* padding-top: 10; */
   font-size:16px;
   font-family:"Lato", sans-serif;
   font-weight:400;
@@ -23,23 +24,24 @@ body, html{
 }
 
 .pimg1{
-  background-image:url('https://wallpaperaccess.com/full/4507325.jpg');
+  background-image:url('https://2.bp.blogspot.com/-FRDgKhigQ0s/WjXyNjaS6pI/AAAAAAAADaA/PfWyzD-gisE1oswC2A3TWfb2RkdfwNmbgCEwYBhgL/s1600/indian-flag-hd-wallpaper.jpg');
   min-height:100%;
+  /* background-size: cover; */
 }
 
 .pimg2{
   background-image:url('https://cdn.wallpapersafari.com/62/24/hIGUgD.jpg');
-  min-height:400px;
+  min-height:600px;
 }
 
 .pimg3{
   background-image:url('https://cloudfront-us-east-2.images.arcpublishing.com/reuters/CYW2BEQN4NO7LFROTWOXZIF5FE.jpg');
-  min-height:400px;
+  min-height:600px;
 }
 
 .pimg4{
-  background-image:url('https://i.pinimg.com/736x/79/38/ec/7938ecced23648c545a20ef9c21042a6.jpg');
-  min-height:400px;
+  background-image:url('https://i.pinimg.com/originals/f3/e1/10/f3e1102c01450c098bd6c552aaa89ec2.jpg');
+  min-height:600px;
 }
 
 .section{
